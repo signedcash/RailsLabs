@@ -1,0 +1,8 @@
+<div class="form-io">
+    <b>Лабораторная работа №10</b>
+    <%= form_tag(output_path, :method => 'get') do %>
+        <%= text_field_tag :txt, '', placeholder: "Введите число", class: 'textarea'%>
+        <%= select_tag 'process', options_for_select(['Клиент', 'Сервер', 'Не обрабатывать']) %>
+        <%= submit_tag 'Найти', class: 'button' %>
+    <% end %>
+</div>

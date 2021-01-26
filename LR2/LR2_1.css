@@ -1,0 +1,32 @@
+body {
+	 background-color:#FFE4B5;
+ }
+ 
+ h1 {
+	 font-family : Mistral;
+	 color : #8B4513;
+     font-size: 40px;
+ }
+
+div {
+	font-size : 20px;
+	font-family : Arial, serif;
+	color:#8B4513;
+	margin : 50px 50px;
+}
+ 
+ .color {
+	 color:#800000;
+ }
+ 
+ .b {
+	 font-weight : bold;
+ }
+ 
+ .i {
+	 font-style : italic;
+ }
+ 
+ .font {
+	 font-family : Mistral;
+ }

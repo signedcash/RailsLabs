@@ -1,0 +1,9 @@
+<div class="form-io">
+    <b>Лабораторная работа №9</b>
+    <%= form_tag('/home/output', :method => 'get',
+    remote: true, id: 'calc_form') do %>
+        <%= text_field_tag :txt, '', placeholder: "Введите число", class: 'textarea', id: 'input-field'%>
+        <%= submit_tag 'Найти', class: 'button', id: 'submit-but' %>
+    <% end %>
+</div>
+<div id="result"></div>

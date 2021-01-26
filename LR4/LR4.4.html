@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Лабораторная работа №4</title>
+		<meta charset="UTF-8">
+		<meta name="viewport" content = "width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="LR4.4.css">
+		<script type="text/javascript" src="LR4.js"></script>
+	</head>
+	<body onpageshow="SetData()">
+		<div>
+			<h1>Товары</h1>
+		</div>
+		<div>
+			<table bordercolor="black" border="2px">
+				<tr id="header">
+					<td>№</td>
+					<td>Наименование</td>
+					<td>Стоимость</td>
+				</tr>
+				<tr id="tr1" class="line" onclick="AddData(1)">
+					<td>1</td>
+					<td>Samsung Galaxy S20+</td>
+					<td>84500</td>
+				</tr>
+				<tr id="tr2" class="line" onclick="AddData(2)">
+					<td>2</td>
+					<td>Huawei P40 Pro+</td>
+					<td>98000</td>
+				</tr>
+				<tr id="tr3" class="line" onclick="AddData(3)">
+					<td>3</td>
+					<td>iPhone 11 Pro Max</td>
+					<td>105000</td>
+				</tr>
+				<tr id="tr4" class="line" onclick="AddData(4)">
+					<td>4</td>
+					<td>ZTE Axon 10 Pro</td>
+					<td>40000</td>
+				</tr>
+				<tr id="tr5" class="line" onclick="AddData(5)">
+					<td>5</td>
+					<td>Xiaomi Mi 9T Pro</td>
+					<td>25500</td>
+				</tr>
+				<tr id="tr6" class="line" onclick="AddData(6)">
+					<td>6</td>
+					<td>OnePlus 7 Pro</td>
+					<td>42000</td>
+				</tr>
+				<tr id="tr7" class="line" onclick="AddData(7)">
+					<td>7</td>
+					<td>Honor 20</td>
+					<td>26000</td>
+				</tr>
+				<tr id="tr8" class="line" onclick="AddData(8)">
+					<td>8</td>
+					<td>Huawei P30 Pro</td>
+					<td>40000</td>
+				</tr>
+				<tr id="tr9" class="line" onclick="AddData(9)">
+					<td>9</td>
+					<td>Samsung Galaxy Note20</td>
+					<td>100000</td>
+				</tr>
+				<tr id="tr10" class="line" onclick="AddData(10)">
+					<td>10</td>
+					<td>Google Pixel 3</td>
+					<td>32000</td>
+				</tr>
+			</table>
+		</div>
+		<div id="adding">
+			<button id="add-button" onclick="SaveData(); window.location.href='LR4.html';"> Оформить заказ </button>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,56 @@
+h1 {
+	margin-bottom : 20px;
+	text-align : center;
+}
+
+table{
+	border: 2px inset grey;
+}
+
+button{
+	background-color: lightgreen;
+	border: 2px inset grey;
+	height: 25px;
+	width: 100px;
+}
+
+div {
+	margin : 20px;
+}
+
+td {
+	width : 16%;
+	text-align : center;
+	border: 1px solid black;
+}
+
+#header {
+	font-style : italic;
+	font-weight: bold;
+	background-color: lightgreen;
+}
+
+.add-div{
+	float: right;
+	margin-bottom: 375px;
+	padding-top: 0;
+	margin-top: 0;
+	margin-left: 5%;
+}
+
+ .add-div{
+	 float: left;
+	 padding-top: 0;
+	 margin-top: 0;
+	 margin-left: 5%;
+ }
+
+button:hover {
+	background-color: lawngreen;
+	border: 2px inset black;
+}
+
+ td.price:hover {
+	 background-color : lawngreen;
+	 color : black;
+ }

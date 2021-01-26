@@ -1,0 +1,56 @@
+body {
+	background-color : whitesmoke;
+	font-family : Arial, serif;
+	color : black;
+	size : 20px;
+	text-align : center;
+}
+
+h1 {
+	margin-bottom : 20px;
+	text-align : center;
+}
+
+tr.line:hover {
+	background : grey;
+}
+
+.tables {
+	border: 2px double black;
+}
+
+
+table {
+	 width : 48%;
+	 margin-left : 26%;
+ }
+ 
+ td {
+	width : 16%;
+	text-align : center;
+}
+
+#header {
+	font-style : italic;
+	font-weight: bold;
+	background-color: lightgreen;
+}
+
+#adding {
+	margin-top: 20px;
+	height: 50px;
+	width: 200px;
+	margin-left: 44%;
+}
+
+#add-button {
+	background-color: lightgreen;
+	border: 2px inset grey;
+	width: 200px;
+	height: 50px;
+}
+
+#add-button:hover {
+	background-color: lawngreen;
+	border: 2px inset black;
+}

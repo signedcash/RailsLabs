@@ -1,0 +1,41 @@
+div{
+	text-align: center;
+}
+
+h1{
+	padding: 20px;
+}
+
+.t{
+	border: 1px solid black;
+	font-size:18px;
+	line-height:40px;
+}
+
+.day-header{
+	font-weight: bold;
+}
+
+.den-header{
+	background-color: #3498db;
+	font-weight: bold;
+}
+
+.num-item{
+	color: #18bc9c;
+}
+
+.den-item{
+	color: #3498db;
+}
+
+.num-header{
+	background-color: #18bc9c;
+	font-weight: bold;
+}
+
+.time-header{
+	font-weight: bold;
+	padding-top: 20px;
+}
+
