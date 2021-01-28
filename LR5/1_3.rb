@@ -5,16 +5,12 @@ require_relative './1_1'
 
 # main test
 class MyTest < Test::Unit::TestCase
-  def test1_for_x_val
-    (1..10).each { |x_val| assert_equal(MathTest.cal(x_val, 1, 1), Eval.eq(x_val, 1, 1)) }
+  def test1_classic_test
+    assert_in_delta(-1.17302, Eval.eq(1.0, 2.0, 3.0), 0.001)
   end
 
-  def test2_for_r_val
-    (1..10).each { |r_val| assert_equal(MathTest.cal(1, r_val, 1), Eval.eq(1, r_val, 1)) }
-  end
-
-  def test3_for_z_val
-    (1..10).each { |z_val| assert_equal(MathTest.cal(1, 1, z_val), Eval.eq(1, 1, z_val)) }
+  def test2_returns_nil_on_div_to_zero
+    assert Eval.eq(rand * 100, 0, rand * 500).nan?
   end
 end
 

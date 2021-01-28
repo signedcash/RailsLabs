@@ -9,14 +9,14 @@ class SessionsControllerTest < ActionDispatch::IntegrationTest
   end
 
   test 'create fake user and make some stuff' do
-    unless usr = User.find_by(login: 'Louisa').nil?
-      User.find_by(login: 'Louisa').destroy 
+    unless usr = User.find_by(login: 'User').nil?
+      User.find_by(login: 'User').destroy 
     end
-    User.create(login: 'Louisa', password:'1111', password_confirmation:'1111').save 
-    get auth_url, params: { login: 'Louisa', password: '1111' }
+    User.create(login: 'User', password:'1111', password_confirmation:'1111').save 
+    get auth_url, params: { login: 'User', password: '1111' }
     get output_url, params: { txt: '100' }
     assert_response :success
-    User.find_by(login: 'Louisa').destroy if usr
+    User.find_by(login: 'User').destroy if usr
   end
 
 end
